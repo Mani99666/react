@@ -1,0 +1,20 @@
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.box{
+    max-width:500px;
+    height:auto;
+}
+.box input{
+    padding:8px;
+}
+.box button{
+    padding:8px;
+    background-color: aquamarine;
+    margin-left:5px;
+    color:black;
+    border:0;
+    border-radius:6px;
+}

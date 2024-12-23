@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+
 import Paragraph from './Paragraph'
 const Home = () => {
     const arr=[
