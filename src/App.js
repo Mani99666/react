@@ -1,5 +1,6 @@
 import React from 'react'
-import Todotask from './Component/Todotask'
+import Taskuseeffect from './Component/Taskuseeffect'
+//import Todotask from './Component/Todotask'
 //import Header from './Component/Header'
 //import Home from './Component/Home'
 //import Praticehook from './Component/Praticehook'
@@ -8,7 +9,7 @@ import Todotask from './Component/Todotask'
 const App = () => {
   return (
     <div>
-      <Todotask/>
+      <Taskuseeffect/>
     </div>
   )
 }
