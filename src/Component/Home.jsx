@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-
+import { Link,Outlet } from 'react-router-dom'
 import Paragraph from './Paragraph'
 const Home = () => {
     const arr=[
@@ -23,6 +23,8 @@ const Home = () => {
       {
         arr.map((item)=><Paragraph title={item.title} para={item.para} btntext={item.btntext}/>)
       }
+      <Link to="/user">User page</Link>
+      <Outlet/>
     </section>
   )
 }

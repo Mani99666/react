@@ -1,16 +1,17 @@
 import React from 'react'
 import '../App.css'
+import { Link } from 'react-router-dom'
 function Header() {
   return (
-    <nav className='header'>
+    <nav className='header' style={{display:'flex'}}>
        <div>
          <h2>Logo</h2>
        </div>
        <div>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Careers</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        
        </div>
        <div>
          <button>Login</button>
